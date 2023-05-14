@@ -9,8 +9,8 @@ function onFormSubmit(event) {
         alert("Please fill in all the fields!");
     } else {
         let objToDisplay = {};
-        objToDisplay.Email = email.value;
-        objToDisplay.Password = password.value;
+        objToDisplay.email = email.value;
+        objToDisplay.password = password.value;
 
         console.log(objToDisplay);
         event.currentTarget.reset();
